@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaster.master.cs" Inherits="Portafolio.PaginaMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+<div class="container">
+  <nav class="navbar navbar-expand-md ">
+    <a class="navbar-brand" href="Index.aspx">Arriendo Turismo Real</a>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav justify-content-end">
+      
+      <li class="nav-item ">
+        <a class="nav-link" href="#">Departamentos </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="Empresa.aspx">Empresa</a>
+      </li>
+
+        <li class="nav-item">
+        <a class="nav-link" href="#">Contacto</a>
+      </li>
+   
+        <li class="nav-item " style="background-color:chartreuse"  >
+        <a class="nav-link" href="RegistroUsuario.aspx">Registrate</a>
+      </li>
+
+        <li class="nav-item " style="background-color:aqua">
+            <a class="nav-link " href="Login.aspx">Login</a>
+        </li>
+  </ul>
+  </div>
+  </nav>
+    </div>
+    <hr />
+
+    <form id="form1" runat="server" class="align-content-center">
+        <div>
+            <asp:ContentPlaceHolder ID="BodyBody" runat="server" >
+                <hr />
+            </asp:ContentPlaceHolder>
+            <hr />
+             <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Desarrollado por Team Duoc GG</p>
+            </footer>
+        </div>
+    </form>
+</body>
+
+</html>

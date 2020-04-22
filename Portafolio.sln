@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portafolio", "Portafolio\Portafolio.csproj", "{B6ED1EAF-F3D7-4F91-BD50-4F7908F37991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{DDD7904C-3D2B-40FC-A178-3D4B61238A19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6ED1EAF-F3D7-4F91-BD50-4F7908F37991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6ED1EAF-F3D7-4F91-BD50-4F7908F37991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6ED1EAF-F3D7-4F91-BD50-4F7908F37991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6ED1EAF-F3D7-4F91-BD50-4F7908F37991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD7904C-3D2B-40FC-A178-3D4B61238A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD7904C-3D2B-40FC-A178-3D4B61238A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD7904C-3D2B-40FC-A178-3D4B61238A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD7904C-3D2B-40FC-A178-3D4B61238A19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A087BB6B-ABA0-406A-98AE-2F1B000A03A7}
+	EndGlobalSection
+EndGlobal
