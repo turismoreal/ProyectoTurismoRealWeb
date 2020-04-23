@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using CapaDato;
+using CapaNegocio;
 
 namespace Portafolio
 {
@@ -11,6 +13,8 @@ namespace Portafolio
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            List<ROL> roles = new RolBI().listarRoles();
+
 
         }
     }
